@@ -1,6 +1,3 @@
-Plugin: lighthouse_coverage
-===========
-
 Summary
 -------
 
@@ -18,7 +15,7 @@ Dependencies
 This module needs OSI.
 The included file, `modat.py` needs to be placed into the lighthouse/reader/parsers directory. In the Binary Ninja plugin directory, there should be a file called `lighthouse_plugin.py` and a folder called `lighthouse`. Place `modat.py` there in the relative path `lighthouse/reader/parsers`
 
-
+![Binary Ninja installation](doc_pics/install_to_lighthouse.png)
 
 Example
 -------
