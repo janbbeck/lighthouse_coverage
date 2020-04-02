@@ -13,6 +13,19 @@ Dependencies
 ------------
 
 This module needs OSI.
+
+Installation
+------------
+PANDA:
+- Create a folder, lighthouse_coverage in the PANDA plugins directory
+- Drop this projects' files into that folder
+- modify the config.panda file in the plugins directory to include lighthouse_coverage
+
+![PANDA installation](doc_pics/panda_install.png)
+
+![PANDA installation](doc_pics/panda_install2.png)
+
+Binary Ninja:
 The included file, `modat.py` needs to be placed into the lighthouse/reader/parsers directory. In the Binary Ninja plugin directory, there should be a file called `lighthouse_plugin.py` and a folder called `lighthouse`. Place `modat.py` there in the relative path `lighthouse/reader/parsers`
 
 ![Binary Ninja installation](doc_pics/install_to_lighthouse.png)
@@ -22,7 +35,7 @@ Example
 
 ```$ ./panda-system-x86_64 -m 4096 -replay theRecording -os linux-64-ubuntu -panda osi -panda osi_linux:kconf_group=ubuntu:5.3.0-28-generic:64 -panda lighthouse_coverage```
 
-produces a file in the current directory, `lighthouse.out', which contains coverage information lighthouse can use
+produces a file in the current directory, `lighthouse.out', which contains coverage information lighthouse can use.
 
-
+![Binary Ninja coverage](doc_pics/imported_to_bn.png)
 
