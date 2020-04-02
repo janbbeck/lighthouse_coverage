@@ -1,7 +1,7 @@
 Summary
 -------
 
-This PANDA plugin emits a file, lighthouse.out for usage by the lighthouse coverage plugin for IDA pro and Binary Ninja. This is especially useful for the analysis of binaries that have advanced anti-debug and anti-tracing features and are heavily obfuscated with overlapping code. Binary Ninja is capable of displaying this.
+This PANDA plugin emits a file, `lighthouse.out`, for usage by the lighthouse coverage plugin for IDA pro and Binary Ninja. This is especially useful for the analysis of binaries that have advanced anti-debug and anti-tracing features and are heavily obfuscated with overlapping code. Binary Ninja is capable of displaying this.
 
 
 Arguments
